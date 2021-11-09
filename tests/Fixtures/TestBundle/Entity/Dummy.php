@@ -133,9 +133,9 @@ class Dummy
     public $relatedDummies;
 
     /**
-     * @var array serialize data
+     * @var ?array serialize data
      *
-     * @ORM\Column(type="json_array", nullable=true)
+     * @ORM\Column(type="json", nullable=true)
      */
     public $jsonData;
 
