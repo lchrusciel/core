@@ -133,7 +133,7 @@ class Dummy
     public $relatedDummies;
 
     /**
-     * @var array serialize data
+     * @var ?array serialize data
      *
      * @ORM\Column(type="json", nullable=true)
      */
